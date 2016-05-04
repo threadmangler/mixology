@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 array = []
 with open("urls.txt", "r") as f:
   for line in f:
-    array.append(line)
+    array.append(line.strip())
 #    print array
 
 #url = "http://cocktails.about.com/od/ginrecipes/r/floradora_cktl.htm"
